@@ -67,7 +67,7 @@ Beacon Flow/
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/beacon-flow.git
+git clone https://github.com/mateocallec/beacon-flow.git
 cd beacon-flow
 npm install
 ````
@@ -94,12 +94,25 @@ Your packaged app will be available in the `dist/` folder.
 
 ---
 
-## 🧠 Technologies Used
+## 🧠 Technologies & Credits
 
 * **[Electron](https://www.electronjs.org/)** — for cross-platform desktop app development
 * **[Axios](https://axios-http.com/)** (`axios.min.js`) — for handling HTTP requests
 * **[The New CSS Reset](https://github.com/elad2412/the-new-css-reset)** — to normalize browser styles
 * **Chromium** — for rendering the user interface
+
+### 🎨 Fonts & Icons
+
+* **Afacad Flux Typeface** — includes the following font weights:
+  `AfacadFlux-Light.ttf`, `AfacadFlux-Regular.ttf`, `AfacadFlux-Medium.ttf`, `AfacadFlux-SemiBold.ttf`
+  → Designed by **Google Fonts** ([Afacad Flux on Google Fonts](https://fonts.google.com/specimen/Afacad+Flux))
+* **Material Symbols** — for iconography
+  Includes:
+
+  * `MaterialSymbolsOutlined.ttf` / `.woff2` + `.codepoints`
+  * `MaterialSymbolsRounded.ttf` / `.woff2` + `.codepoints`
+  * `MaterialSymbolsSharp.ttf` / `.woff2` + `.codepoints`
+    → Provided by **Google Material Design Icons** ([Material Symbols](https://fonts.google.com/icons))
 
 ---
 
