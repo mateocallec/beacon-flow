@@ -10,22 +10,35 @@
   "homepage": "https://github.com/mateocallec/beacon-flow",
   "build": {
     "appId": "net.callec.beaconflow",
+    "productName": "Beacon Flow",
+    "artifactName": "${productName}-${version}-${os}-${arch}.${ext}",
     "linux": {
       "target": [
         "AppImage",
         "deb"
       ],
       "icon": "assets/icons",
-      "category": "Utility"
+      "category": "Utility",
+      "maintainer": "Matéo Florian Callec <mateo@callec.net>"
     },
     "mac": {
       "target": ["dmg", "zip"],
       "icon": "assets/icons/512x512.icns",
-      "category": "public.app-category.utilities"
+      "category": "public.app-category.utilities",
+      "entitlements": "build/entitlements.mac.plist",
+      "hardenedRuntime": true
     },
     "win": {
       "target": ["nsis", "zip"],
-      "icon": "assets/icons/512x512.ico"
+      "icon": "assets/icons/512x512.ico",
+      "publisherName": "Matéo Florian Callec"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Beacon Flow"
     }
   },
   "scripts": {
