@@ -8,3 +8,6 @@ It is intended to guide development priorities and provide transparency for cont
 ## Version 1.x (Upcoming)
 - ✨ **UI Improvements**: Enhance interface usability and layout.
 - 🔍 **Better Inspect Tool**: Provide advanced response inspection, filtering, and visualization.
+
+## Version 2.x
+- 🌟 **Custom Headers**: For including cookies or customize headers.
