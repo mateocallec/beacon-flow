@@ -35,6 +35,7 @@ It provides a clean and intuitive interface to send HTTP requests, manage parame
 Beacon Flow/
 ├── assets/                # Images, icons, and static resources
 ├── dist/                  # Compiled build output
+├── docs/                  # Documentation & templates
 ├── node_modules/          # Installed dependencies
 ├── scripts/               # Helper scripts
 │   ├── build.sh           # Build script for packaging the app
