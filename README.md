@@ -61,7 +61,7 @@ Beacon Flow/
 
 ### Prerequisites
 - **Node.js** (v18+ recommended)
-- **npm** or **yarn**
+- **npm**
 - **Git**
 
 ### Installation
