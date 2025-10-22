@@ -1,0 +1,56 @@
+# Node modules
+/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Electron / build folders
+/dist/
+/out/
+.release/
+electron-builder.yml
+
+# Electron packaging
+*.app
+*.exe
+*.dmg
+*.deb
+*.rpm
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.vscode/
+
+# Mac system files
+*.DS_Store
+
+# npm cache
+.npm/
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+
+# Optional lock files (if using Yarn or npm)
+package-lock.json
+yarn.lock

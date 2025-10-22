@@ -1,0 +1,59 @@
+.c-icon::before {
+  position: relative;
+  font-family: 'MaterialIconsRounded';
+  font-weight: 600;
+  font-size: 1rem;
+  vertical-align: sub;
+  color: inherit;
+}
+
+.c-icon-start::before {
+  position: relative;
+  padding-right: 0.25em;
+  font-family: 'MaterialIconsRounded';
+  font-weight: 600;
+  font-size: 1.25em;
+  vertical-align: sub;
+  color: inherit;
+}
+
+.c-icon-end::after {
+  position: relative;
+  padding-right: 0.25em;
+  font-family: 'MaterialIconsRounded';
+  font-weight: 600;
+  font-size: 1.25em;
+  vertical-align: sub;
+  color: inherit;
+}
+
+.c-icon.c-add::before,
+.c-icon-start.c-add::before,
+.c-icon-end.c-add::after {
+  content: "add";
+}
+
+.c-icon.c-send::before,
+.c-icon-start.c-send::before,
+.c-icon-end.c-send::after {
+  content: "send";
+}
+
+.c-icon.c-delete::before,
+.c-icon-start.c-delete::before,
+.c-icon-end.c-delete::after {
+  content: "delete_forever";
+}
+
+.c-icon.c-close::before,
+.c-icon-start.c-close::before,
+.c-icon-end.c-close::after {
+  content: "close_small";
+}
+
+
+.c-icon.c-minimize::before,
+.c-icon-start.c-minimize::before,
+.c-icon-end.c-minimize::after {
+  content: "minimize";
+}

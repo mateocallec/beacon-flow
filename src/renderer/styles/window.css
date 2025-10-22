@@ -1,0 +1,74 @@
+/* - Frame - */
+
+#win-frame,
+#win-frame-style {
+  --frame-height: 40px;
+  --button-width: 50px;
+}
+
+#win-frame {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: var(--frame-height);
+  background: var(--frame-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  z-index: 10;
+  -webkit-app-region: drag;
+}
+
+#win-frame>* {
+  -webkit-app-region: no-drag;
+}
+
+#win-frame>button {
+  position: relative;
+  width: var(--button-width);
+  height: 100%;
+  background: var(--input-background);
+  color: var(--input-color);
+  font-size: calc(var(--frame-height) * 0.5);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#win-frame>button:first-child {
+  border-bottom-left-radius: var(--border-radius);
+}
+
+#win-frame>button:hover {
+  background: var(--input-background-hover);
+}
+
+#win-quit:hover {
+  background: var(--close-color) !important;
+}
+
+/* - Scrollbar - */
+
+/* width */
+::-webkit-scrollbar {
+  padding-top: 100px;
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--input-background);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--input-background);
+}

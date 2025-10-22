@@ -1,0 +1,36 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+@import url('./window.css');
+@import url('./layout.css');
+@import url('./components.css');
+@import url('./icons.css');
+
+* {
+  transition: var(--transition);
+}
+
+html,
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--root-background);
+  color: var(--root-color);
+  font-family: var(--root-font-family);
+  font-size: var(--root-font-size);
+  font-weight: var(--root-font-weight);
+}
+
+::selection {
+  background: var(--color0);
+  color: var(--color2);
+}
+
+::moz-selection {
+  background: var(--color0);
+  color: var(--color2);
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --padding-y: calc(var(--root-margin) * 0.25);
+  padding-top: var(--padding-y);
+  padding-bottom: var(--padding-y);
+  padding-left: var(--root-margin);
+  padding-right: var(--root-margin);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+div.form-group {
+  --padding-x: 0;
+  --padding-y: 0.5rem;
+  position: relative;
+  padding-top: var(--padding-y);
+  padding-bottom: var(--padding-y);
+  padding-left: var(--padding-x);
+  padding-right: var(--padding-x);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+div.params-container {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+div.param-group {
+  --margin-y: 0.5em;
+  position: relative;
+  margin-top: var(--margin-y);
+  margin-bottom: var(--margin-y);
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}

@@ -1,0 +1,40 @@
+:root {
+  --frame-color: rgb(6, 11, 24, 0);
+  --frame-color-hover: rgb(6, 11, 24, 0.3);
+  --root-font-family: "AfacadFlux", "sans-serif";
+  --root-font-size: 20px;
+  --root-font-weight: 400;
+  --root-margin: 7.5rem;
+  --color0: rgb(42, 67, 124);
+  --color1: rgb(27, 52, 109);
+  --color2: rgb(255, 255, 255);
+  --close-color: rgb(172, 0, 0);
+  --root-background: linear-gradient(135deg, var(--color0), var(--color1));
+  --root-color: rgb(255, 255, 255);
+  --blur: 0;
+  --input-background: rgba(20, 29, 53, 0.6);
+  --input-background-hover: rgba(20, 29, 53, 0.8);
+  --input-background-focus: rgba(20, 29, 53, 1);
+  --input-color: rgb(255, 255, 255);
+  --input-color-placeholder: rgb(161, 161, 161);
+  --border-radius: 10px;
+  --transition: 0.3s;
+}
+
+.select {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

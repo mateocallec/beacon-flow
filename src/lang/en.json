@@ -1,0 +1,11 @@
+{
+  "app_name": "Beacon Flow",
+  "page.method": "Method:",
+  "page.url": "URL:",
+  "page.settings": "Settings:",
+  "page.settings.params.name": "Name",
+  "page.settings.params.value": "Value",
+  "page.settings.add_param": "Add a parameter",
+  "page.send_request": "Send request",
+  "page.response": "Response:"
+}

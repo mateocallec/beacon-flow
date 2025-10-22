@@ -1,0 +1,46 @@
+{
+  "name": "beacon-flow",
+  "version": "1.0.0",
+  "description": "Beacon Flow is a lightweight app for testing APIs by sending requests with different methods and custom parameters.",
+  "main": "src/main/main.js",
+  "author": {
+    "name": "Matéo Florian Callec",
+    "email": "mateo@callec.net"
+  },
+  "homepage": "https://github.com/mateocallec/beacon-flow",
+  "build": {
+    "appId": "net.callec.beaconflow",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "assets/icons",
+      "category": "Utility"
+    },
+    "mac": {
+      "target": ["dmg", "zip"],
+      "icon": "assets/icons/512x512.icns",
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": ["nsis", "zip"],
+      "icon": "assets/icons/512x512.ico"
+    }
+  },
+  "scripts": {
+    "start": "npx electron .",
+    "build": "npx electron-builder",
+    "lint": "npx eslint --init"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "electron": "^38.3.0",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0"
+  }
+}

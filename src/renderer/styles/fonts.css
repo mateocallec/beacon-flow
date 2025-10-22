@@ -1,0 +1,47 @@
+@font-face {
+	font-family: "AfacadFlux";
+	font-weight: 300;
+	src: url("../fonts/AfacadFlux-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "AfacadFlux";
+	font-weight: 400;
+	src: url("../fonts/AfacadFlux-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "AfacadFlux";
+	font-weight: 500;
+	src: url("../fonts/AfacadFlux-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "AfacadFlux";
+	font-weight: 600;
+	src: url("../fonts/AfacadFlux-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'MaterialIconsOutlined';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/MaterialSymbolsOutlined.ttf') format('truetype'),
+		url('../fonts/MaterialSymbolsOutlined.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'MaterialIconsRounded';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/MaterialSymbolsRounded.ttf') format('truetype'),
+		url('../fonts/MaterialSymbolsRounded.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'MaterialIconsSharp';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/MaterialSymbolsSharp.ttf') format('truetype'),
+		url('../fonts/MaterialSymbolsSharp.woff2') format('woff2');
+}

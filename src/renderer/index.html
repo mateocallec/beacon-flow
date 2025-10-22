@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-lang="app_name"></title>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src *">
+
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body class="noselect">
+    <div id="win-frame">
+      <button id="win-minimize" class="c-icon c-minimize"></button>
+      <button id="win-quit" class="c-icon c-close"></button>
+    </div>
+
+    <h1 data-lang="app_name"></h1>
+
+    <div class="container">
+      <div class="form-group">
+        <label for="method" data-lang="page.method"></label>
+        <select class="input" id="method">
+          <option value="GET">GET</option>
+          <option value="POST">POST</option>
+          <option value="PUT">PUT</option>
+          <option value="DELETE">DELETE</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="url" data-lang="page.url"></label>
+        <input class="input" type="text" id="url" placeholder="https://example.com/api" spellcheck="false">
+      </div>
+
+      <div class="form-group">
+        <label data-lang="page.settings"></label>
+
+        <div class="params-container" id="params-container"></div>
+
+        <button class="input c-icon-start c-add" id="add-param" data-lang="page.settings.add_param" style="width: auto;"></button>
+      </div>
+
+      <div class="form-group">
+        <button class="input c-icon-start c-send" id="send-request" data-lang="page.send_request" style="text-align: center; margin-top: 1em; margin-bottom: 1em;"></button>
+      </div>
+
+      <div class="form-group">
+        <label data-lang="page.response"></label>
+        <div class="input input-wrapper">
+          <textarea class="invisible-input" id="response" spellcheck="false" readonly></textarea>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./axios.min.js"></script>
+    <script type="module" src="./window.js"></script>
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>
