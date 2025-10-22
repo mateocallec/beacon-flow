@@ -1,6 +1,6 @@
 {
   "name": "beacon-flow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Beacon Flow is a lightweight app for testing APIs by sending requests with different methods and custom parameters.",
   "main": "src/main/main.js",
   "author": {

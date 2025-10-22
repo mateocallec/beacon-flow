@@ -6,6 +6,19 @@ Versions follow [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [v1.0.1] - 2025-10-22
+### Changed
+- Product name updated from `beacon-flow` to **Beacon Flow**.
+- Git repository improved with a better `package.json`, and enhanced documentation.
+
+### Added
+- **Issues templates** added (`bug_report.md` and `feature_request.md`).
+
+### Fixed
+- N/A
+
+---
+
 ## [v1.0.0] - 2025-10-21
 ### Added
 - Support for **GET, POST, PUT & DELETE requests**.
