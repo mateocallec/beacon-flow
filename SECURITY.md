@@ -4,8 +4,8 @@
 
 | Version | Supported          |
 |---------|--------------------|
-| 1.0.0   | :white_check_mark: |
 | 1.0.1   | :white_check_mark: |
+| 1.0.0   | :white_check_mark: |
 
 We actively maintain and support versions listed above. Please upgrade if you are using an unsupported version.
 
