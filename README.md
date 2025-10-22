@@ -6,7 +6,7 @@
 
 <div align="center">
     <a href="https://github.com/mateocallec/beacon-flow/releases"><img src="https://img.shields.io/github/v/release/mateocallec/beacon-flow?label=lastest%20release&color=blue" alt="Latest release" /></a>
-    <a href="https://rojo.space/docs"><img src="https://img.shields.io/github/license/mateocallec/beacon-flow?label=license&color=white" alt="License" /></a>
+    <a href="https://github.com/mateocallec/beacon-flow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateocallec/beacon-flow?label=license&color=white" alt="License" /></a>
     <a href="https://github.com/mateocallec/beacon-flow/releases"><img src="https://img.shields.io/badge/platform-Cross--Platform-47848F?logo=electron&logoColor=white" alt="Supported platforms" /></a>
 </div>
 
