@@ -50,7 +50,3 @@ temp/
 
 # Coverage reports
 coverage/
-
-# Optional lock files (if using Yarn or npm)
-package-lock.json
-yarn.lock
