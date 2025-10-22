@@ -30,8 +30,7 @@
     },
     "win": {
       "target": ["nsis", "zip"],
-      "icon": "assets/icons/512x512.ico",
-      "publisherName": "Matéo Florian Callec"
+      "icon": "assets/icons/512x512.ico"
     },
     "nsis": {
       "oneClick": false,
